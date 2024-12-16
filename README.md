@@ -4,7 +4,9 @@
 
 ### Для компиляции скриптов использовать команду 
 
+```
 gcc [client/server].c -o [client/server] -I/usr/local/include -L/usr/local/lib -Wl,-rpath=/usr/local/lib -lakrypt -lakrypt-base
+```
 
 где:
 > -I: Добавляет директорию в список путей для поиска заголовочных файлов, используемых в исходном коде.
